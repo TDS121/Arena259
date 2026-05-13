@@ -5,3 +5,4 @@ main
 Makefile
 test1
 *.exe
+test.cpp
