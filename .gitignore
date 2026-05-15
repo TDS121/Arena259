@@ -4,4 +4,6 @@ arena
 main
 Makefile
 test1
+test2
 *.exe
+ezra_test_dragon.cpp
