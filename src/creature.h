@@ -4,6 +4,9 @@
 #include <string>
 #include <iostream>
 
+#include "creature.h"
+#include "utils.h"
+
 
 // added getters, setters, private static constants, and made variables protected
 // the getters and setters are just generally better practice, and the private static
