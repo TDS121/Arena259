@@ -2,6 +2,11 @@
 #define CLAWDRAGON_H
 #include "../creature.h"
 
-Creature makeClawdragon();
+class Clawdragon : public Creature{
+public:
+    Clawdragon();
+
+    void specialMove(Creature& other) override;
+};
 
 #endif
