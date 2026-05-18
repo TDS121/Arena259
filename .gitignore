@@ -5,3 +5,10 @@ main
 Makefile
 test1
 *.exe
+arena_test
+test.pp
+dragon.cpp
+dragon.h
+test.cpp
+creature.h
+creature.cpp

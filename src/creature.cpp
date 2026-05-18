@@ -63,6 +63,10 @@ bool Creature::isAlive() const {
 	return health > 0; // return true if health > 0
 }
 
+void Creature::specialMove(Creature& other){
+	std::cout << getName() << "has no special move." << std::endl;
+}
+
 int Creature::getCreatureCount() {
 	return creatureCount;
 }
