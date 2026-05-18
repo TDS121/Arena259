@@ -54,8 +54,9 @@ public:
 	void incDamageDealt(const int&); // increase damage dealt stat
 
 	// Damage other creatures
-	void attack(Creature& target); // decreases health of target 
+	virtual void attack(Creature& target); // decreases health of target 
 	void takeDamage(int amount); // decrease this creature's health by amount - defense
+	
 	virtual void specialMove(Creature& other);
 
 	// Validation checks

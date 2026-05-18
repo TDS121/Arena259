@@ -1,11 +1,10 @@
-
-
 // c++ libraries
 #include <string>
 #include <iostream>
 
 // header files
 #include "creature.h"
+#include "utils.h"
 
 int Creature::creatureCount = 0;
 const int Creature::MIN_HEALTH;
@@ -120,6 +119,9 @@ void Creature::attack(Creature& target) {
 	incDamageDealt(damage);
 }
 
+void Creature::specialMove(Creature& other){
+	std::cout << name << " has no special move." << std::endl;
+}
 
 
 // Validation
