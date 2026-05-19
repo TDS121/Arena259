@@ -9,4 +9,5 @@ public:
     void specialMove(Creature& other) override;
 };
 
+
 #endif
